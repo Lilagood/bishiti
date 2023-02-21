@@ -1,0 +1,17 @@
+server:
+  port: 10021
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: #???????
+    username: root
+    password: #???????
+    type: com.alibaba.druid.pool.DruidDataSource
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: true  #?????????
+  type-aliases-package: icu.llila.pojo
+# ??sql????
+logging:
+  level:
+    icu.llila: debug
